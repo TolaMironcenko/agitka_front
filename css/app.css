@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #282828;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.container {
+    width: 1800px;
+    margin: 0 auto;
+}
+
+.mainheadtitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+    color: #FFFFFF;
+}
+
+.mainheadparagraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.mainheadbutton {
+    width: 209px;
+    height: 55px;
+    background: #D9D9D9;
+    border: 1px solid #8F00FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 40%;
+    margin-top: 25px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.mainheadbutton:hover {
+    background: #444343;
+}
+
+.mainhead {
+    padding: 57px;
+    border-bottom: 5px solid #CF6FDE;
+}
+
+.inf {
+    padding: 57px;
+    border-bottom: 5px solid #CF6FDE;
+}
+
+.infp {
+    margin: 40px auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.requerements {
+    padding: 57px;
+    border-bottom: 5px solid #CF6FDE;
+}
+
+.requerementstitle {
+    color: #FA9E89;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.requirementsul {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.fromus {
+    padding: 57px;
+}
+
+.fromustitle {
+    color: #5DE2C2;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.fromusul {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 1800px) {
+    .container {
+        width: 1200px;
+    }
+}
+@media screen and (max-width: 801px) {
+    .container {
+        width: 564px;
+    }
+
+    .mainhead {
+        height: 830px;
+    }
+
+    .mainheadtitle {
+        width: 450px;
+        height: 173px;
+        margin: 150px auto 0 auto;
+    }
+
+    .mainheadparagraph {
+        width: 450px;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    .mainheadbutton {
+        /* margin-left: 0; */
+    }
+
+    .infp {
+        width: 450px;
+        height: 315px;
+    }
+
+    .reqinf {
+        width: 450px;
+        margin: auto;
+    }
+
+    .fromusinf {
+        width: 450px;
+        margin: 50px auto;
+    }
+}
